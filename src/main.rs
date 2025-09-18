@@ -41,7 +41,7 @@ fn main() {
         Calculation::Shape => String::from("Shape"),
     };
 
-    println!("You selected {} calculations", format_selection);
+    println!("You selected {} calculations, choose option below: ", format_selection);
 
   for (i, basic) in Basic::iter().enumerate() {
         println!("{} for {:?}", {i + 1}, basic);
